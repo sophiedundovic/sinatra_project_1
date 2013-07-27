@@ -16,7 +16,7 @@ get '/:name' do
 end
 
 get '/:name1/:name2/:adjective' do
-    "#{params[:name1]} #{params[:name2]} #{params[:adjective}"
+    "#{params[:name1]} #{params[:name2]} #{params[:adjective]}"
 end
 
 
