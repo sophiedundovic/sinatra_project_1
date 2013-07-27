@@ -17,7 +17,7 @@ end
 
 get '/:name1/:name2/:adjective' do
     "#{params[:name1]} #{params[:name2]} #{params[:adjective]}"
-    erb: greet2 
+    erb :greet2 
 end
 
 
